@@ -22,6 +22,7 @@ def recommend(product, color, special_feature, budget):
             "Format the recommendations neatly, show only top 5 results.",
         ],
         tools=[FirecrawlTools()],
+        markdown=True
     )
     
     
